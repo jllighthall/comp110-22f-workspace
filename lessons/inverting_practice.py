@@ -1,0 +1,5 @@
+a: dict[str,str] = dict()
+b: list[str] = list("animal", "color", "number", "sport")
+c: list[str] = list("cat", "purple", "twenty", "football")
+a = (b:c)
+print(a)
